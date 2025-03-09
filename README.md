@@ -7,8 +7,8 @@ Acest proiect implementează **Conway's Game of Life** utilizând **AT&T Assembl
 - Dezvoltarea aplicației **Conway's Game of Life** în **Assembly**, simulând evoluția celulelor într-o matrice bidimensională pe baza unor reguli simple.
   
   Reguli:
-  - **Subpopulație**: O celulă vie cu mai puțin de două vecine vii moare în următoarea generație.
-  - **Supraviețuire**: O celulă vie cu două sau trei vecini vii supraviețuiește.
+  - **Subpopulație**: O celulă vie cu mai puțin de doi vecini vii moare în următoarea generație.
+  - **Supraviețuire**: O celulă vie cu doi sau trei vecini vii supraviețuiește.
   - **Suprapopulație**: O celulă vie cu mai mult de trei vecini vii moare.
   - **Creare**: O celulă moartă cu exact trei vecini vii devine vie.
   - **Stază**: Orice celulă moartă care nu respectă regula de creare rămâne moartă.
